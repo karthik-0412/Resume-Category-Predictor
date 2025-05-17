@@ -131,5 +131,4 @@ Then your users can install all dependencies at once with:
 pip install -r requirements.txt
 ```
 
-If you want, I can help generate a complete zipped project structure with the README and requirements file ready! Just let me know.
 
