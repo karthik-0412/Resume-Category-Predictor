@@ -3,14 +3,11 @@
 
 ---
 
-````markdown
+
 # 📝 Resume Category Prediction App
 
 A simple Streamlit-based web app that predicts the **category of a resume** (e.g., Data Science, HR, etc.) using a **machine learning model** trained on resume data. Upload resumes in PDF, DOCX, or TXT format and instantly get predictions.
 
-![Streamlit App Screenshot](screenshot.png) <!-- Optional: Replace with actual screenshot if available -->
-
----
 
 ## 🚀 Features
 
@@ -113,27 +110,26 @@ Feel free to fork, improve, and submit pull requests!
 
 ---
 
-## 🙋‍♂️ Questions?
+.
 
-Open an issue or contact [yourname@example.com](mailto:yourname@example.com).
+Here’s a simple `requirements.txt` for your project:
 
 ```
-
----
-
-### ✅ Tips:
-
-- Add a `requirements.txt` file with:
-```
-
 streamlit
 scikit-learn
 python-docx
 PyPDF2
-
 ```
-- If you have a demo screenshot, save it as `screenshot.png` and update the `README.md`.
-- Customize author, repo URL, and license as needed.
 
-Would you like me to generate the `requirements.txt` too?
+---
+
+You can create this file by saving the above lines into a file named `requirements.txt` in your project root folder.
+
+Then your users can install all dependencies at once with:
+
+```bash
+pip install -r requirements.txt
 ```
+
+If you want, I can help generate a complete zipped project structure with the README and requirements file ready! Just let me know.
+
